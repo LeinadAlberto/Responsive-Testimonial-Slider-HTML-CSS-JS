@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
 
 		<!--=============== SWIPER CSS ===============-->
-		<link rel="stylesheet" href="">
+		<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
 		<!--=============== CSS ===============-->
 		<link rel="stylesheet" href="assets/css/styles.css">
@@ -20,9 +20,9 @@
 		<section class="testimonial">
 			<h2 class="testimonial__title">WHAT <br> CUSTOMERS SAY</h2>
 
-			<div class="testimonial__swiper container">
-				<div>
-					<article class="testimonial__card">
+			<div class="testimonial__swiper container swiper">
+				<div class="swiper-wrapper">
+					<article class="testimonial__card swiper-slide">
 						<img src="assets/img/avatar-1.png" alt="image" class="testimonial__img">
 						
 						<h3 class="testimonial__name">Damyz Julz</h3>
@@ -46,7 +46,7 @@
 						</p>
 					</article>
 
-					<article class="testimonial__card">
+					<article class="testimonial__card swiper-slide">
 						<img src="assets/img/avatar-2.png" alt="image" class="testimonial__img">
 						
 						<h3 class="testimonial__name">Taylor Carter</h3>
@@ -70,7 +70,7 @@
 						</p>
 					</article>
 
-					<article class="testimonial__card">
+					<article class="testimonial__card swiper-slide">
 						<img src="assets/img/avatar-3.png" alt="image" class="testimonial__img">
 						
 						<h3 class="testimonial__name">Rina Ownel</h3>
@@ -94,7 +94,7 @@
 						</p>
 					</article>
 
-					<article class="testimonial__card">
+					<article class="testimonial__card swiper-slide">
 						<img src="assets/img/avatar-4.png" alt="image" class="testimonial__img">
 						
 						<h3 class="testimonial__name">Jhon Patel</h3>
@@ -118,11 +118,18 @@
 						</p>
 					</article>
 				</div>
+
+				<!-- Pagination -->
+				<div class="swiper-pagination"></div>
+
+				<!-- Navigation buttons -->
+				<div class="swiper-button-prev"><i class="ri-arrow-left-long-line"></i></div>
+				<div class="swiper-button-next"><i class="ri-arrow-right-long-line"></i></div>
 			</div><!-- /.testimonial__swiper -->
 		</section>
 		
 		<!--=============== SWIPER JS ===============-->
-		<script src=""></script>
+		<script src="assets/js/swiper-bundle.min.js"></script>
 
 		<!--=============== MAIN JS ===============-->
 		<script src="assets/js/main.js"></script>
