@@ -20,7 +20,7 @@ const swiperTestimonial = new Swiper('.testimonial__swiper', {
     }, 
     navigation: {
         nextEl: '.swiper-button-next', 
-        nextEl: '.swiper-button-prev'
+        prevEl: '.swiper-button-prev'
     },
     /* autoplay: {
         delay: 3000, 

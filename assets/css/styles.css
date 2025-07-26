@@ -170,9 +170,41 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 300px) {
+	.testimonial__title {
+		font-size: 1.25rem;
+	}
 
+	.testimonial__card {
+		width: 240px;
+		padding-inline: 1rem;
+	}
+}
 
 /* For medium devices */
-
+@media screen and (max-width: 640px) {
+	.testimonial__swiper {
+		max-width: 640px;
+	}
+}
 
 /* For large devices */
+@media screen and (max-width: 1150px) {
+	.testimonial__swiper {
+		max-width: 760px;
+	}
+
+	.testimonial__title {
+		margin-bottom: 4rem;
+	}
+
+	.testimonial__card {
+		width: 330px;
+		padding: 3rem 2rem 4rem;
+		border-radius: 2rem;
+	}
+
+	.testimonial__number {
+		font-size: var(--normal-font-size);
+	}
+}
